@@ -33,7 +33,7 @@ def get_data_point(line):
 
 parsedData = []  # List to keep track of data so it can be used by a Pandas dataframe
 # Upload your file here
-conversationPath = 'E:\Desktop\Project\Survivor_THY_Teknik_chat.txt'  # chat file
+conversationPath = '__PATH__'  # chat file
 
 with open(conversationPath, encoding="utf-8") as fp:
     fp.readline()  # Skipping first line of the file because contains information related to something about
