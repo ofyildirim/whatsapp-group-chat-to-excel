@@ -3,7 +3,7 @@ import re
 
 
 def starts_with_date_and_time(s):
-    # regex pattern for date.(Works only for android. IOS Whatsapp export format is different. Will update the code soon
+    # regex pattern for date.(Works only for IOS. andorid Whatsapp export format is different. Will update the code soon
     s = ''.join(filter(None, s.split("[")))
     s = ''.join(filter(None, s.split("]")))
     pattern = r'(?=\d{1,2}.\d{1,2}.\d{2}(?:\d{2})?\s\d{2}(?:\d{2})?:\d{1,2}:\d{1,2})'
